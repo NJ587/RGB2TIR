@@ -1,0 +1,4 @@
+python train.py --label_nc 0 --no_instance --continue_train --batchSize 64 --name RGB_T234_step5 --dataroot ./datasets/step_5_of_top100/ --loadSize 256 --fineSize 128 --netG local --n_blocks_global 3 --n_blocks_local 1 --gpu_ids 0,2
+
+
+python test.py --label_nc 0 --no_instance --name RGB_T234_step5 --dataroot ./datasets/step_5_of_top100/ --loadSize 256 --fineSize 128 --netG local --n_blocks_global 3 --n_blocks_local 1 --gpu_ids 0,2
