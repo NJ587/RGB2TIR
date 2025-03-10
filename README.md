@@ -5,6 +5,14 @@
 
 Because of the limitation of data size, the whole code can be found [here](https://pan.baidu.com/s/16tLL_LJWNFJPK8qAnE-i7g) with code:6rt8
 
+ - [ ] ****Introduction****
+This work proposes an image generator, which generates TIR images from given RGB images by Generative Adversarial Network (GAN). The effectiveness is quantitatively and qualitatively demonstrated on classic image generation metrics and the downstream RGBT tasks-- visual object tracking with RGB and TIR modalites.
+ - [ ] ****Contribution****
+1. A GAN-based image generator, which generates TIR images from RGB images.
+2. To generate high-quality TIR data, the perceptual loss is utilised in the training process 76
+of generator for content consistency and multi-scale discriminators are employed for 77
+clearer textures.
+3. We demonstrate the effectiveness of this work quantitatively and qualitatively.
 
 - [ ] ****Prerequisites****
  - Linux
