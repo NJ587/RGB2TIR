@@ -1,4 +1,4 @@
-## **RGB to TIR Image Translation Based on Generative Adversarial Network**
+## **Generative Adversarial Translation of RGB to Thermal Infrared Images for Enhanced Multimodal Data**
 
  - [ ] ****Introduction****
 
