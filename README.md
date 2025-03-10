@@ -9,7 +9,7 @@ of generator for content consistency and multi-scale discriminators are employed
 clearer textures.
 - We demonstrate the effectiveness of this work quantitatively and qualitatively.
 
- - [ ] Key descriptions
+ - [ ] ****Key descriptions****
  - Perception loss: The perception loss is conducted by l1 norm, which adds pixel-wise constraint to the generated TIR, making it more similar to the real TIR data and thus keeping more content.
  - Multi-scale discriminator: It is a modified version of the original discriminator by taking features with different resolutions into account. Specifically, it 
 ![pp](https://github.com/user-attachments/assets/a639ee27-0bec-42a1-819b-7939c626a3dd)
