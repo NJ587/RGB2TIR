@@ -1,6 +1,7 @@
 ## **RGB to TIR Image Translation Based on Generative Adversarial Network**
 
  - [ ] ****Introduction****
+ - [ ] 
 This work proposes an image generator, which generates TIR images from given RGB images by Generative Adversarial Network (GAN). The effectiveness is quantitatively and qualitatively demonstrated on classic image generation metrics and the downstream RGBT tasks-- visual object tracking with RGB and TIR modalites.
  - [ ] ****Contribution****
 - A GAN-based image generator, which generates TIR images from RGB images.
