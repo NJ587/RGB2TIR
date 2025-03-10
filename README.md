@@ -1,10 +1,5 @@
 ## **RGB to TIR Image Translation Based on Generative Adversarial Network**
 
-![pp](https://github.com/user-attachments/assets/a639ee27-0bec-42a1-819b-7939c626a3dd)
-
-
-Because of the limitation of data size, the whole code can be found [here](https://pan.baidu.com/s/16tLL_LJWNFJPK8qAnE-i7g) with code:6rt8
-
  - [ ] ****Introduction****
 This work proposes an image generator, which generates TIR images from given RGB images by Generative Adversarial Network (GAN). The effectiveness is quantitatively and qualitatively demonstrated on classic image generation metrics and the downstream RGBT tasks-- visual object tracking with RGB and TIR modalites.
  - [ ] ****Contribution****
@@ -13,6 +8,11 @@ This work proposes an image generator, which generates TIR images from given RGB
 of generator for content consistency and multi-scale discriminators are employed for 77
 clearer textures.
 3. We demonstrate the effectiveness of this work quantitatively and qualitatively.
+
+![pp](https://github.com/user-attachments/assets/a639ee27-0bec-42a1-819b-7939c626a3dd)
+
+
+Because of the limitation of data size, the whole code can be found [here](https://pan.baidu.com/s/16tLL_LJWNFJPK8qAnE-i7g) with code:6rt8
 
 - [ ] ****Prerequisites****
  - Linux
