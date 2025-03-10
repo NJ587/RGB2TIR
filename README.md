@@ -3,10 +3,15 @@
  - [ ] ****Introduction****
 This work proposes an image generator, which generates TIR images from given RGB images by Generative Adversarial Network (GAN). The effectiveness is quantitatively and qualitatively demonstrated on classic image generation metrics and the downstream RGBT tasks-- visual object tracking with RGB and TIR modalites.
  - [ ] ****Contribution****
-1. A GAN-based image generator, which generates TIR images from RGB images.
-2. To generate high-quality TIR data, the perceptual loss is utilised in the training process of generator for content consistency and multi-scale discriminators are employed for clearer textures.
-3. We demonstrate the effectiveness of this work quantitatively and qualitatively.
+- A GAN-based image generator, which generates TIR images from RGB images.
+- To generate high-quality TIR data, the perceptual loss is utilised in the training process 76
+of generator for content consistency and multi-scale discriminators are employed for 77
+clearer textures.
+- We demonstrate the effectiveness of this work quantitatively and qualitatively.
 
+ - [ ] Key descriptions
+ - Perception loss: The perception loss is conducted by l1 norm, which adds pixel-wise constraint to the generated TIR, making it more similar to the real TIR data and thus keeping more content.
+ - Multi-scale discriminator: It is a modified version of the original discriminator by taking features with different resolutions into account. Specifically, it 
 ![pp](https://github.com/user-attachments/assets/a639ee27-0bec-42a1-819b-7939c626a3dd)
 
 
