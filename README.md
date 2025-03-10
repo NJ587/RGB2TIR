@@ -50,7 +50,7 @@ python test.py --label_nc 0 --no_instance --name RGB_T234_step5 --dataroot ./dat
 
 
  - [ ] ****Results on downstream task - RGBT tracking****
- - [ ] ![image](https://github.com/user-attachments/assets/e186926d-ea67-4112-a803-904995cee0f2)
+ ![image](https://github.com/user-attachments/assets/e186926d-ea67-4112-a803-904995cee0f2)
 
 
 This work is now submitted to The Visual Computer
