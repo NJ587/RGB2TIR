@@ -11,9 +11,10 @@ This work proposes an image generator, which generates TIR images from given RGB
  - [ ] ****Key descriptions****
  - Perception loss: The perception loss is conducted by l1 norm, which adds pixel-wise constraint to the generated TIR, making it more similar to the real TIR data and thus keeping more content.
  - Multi-scale discriminator: It is a modified version of the original discriminator by taking features with different resolutions into account. Specifically, we employs the last two feature embeddings and send them into two discriminator, respectively. In this way, the discrimintor can produce higher scores to generated date with clearer textures, thus improving the quality of the generated TIR data.
+
+- [ ] ****Pipeline****
    
 ![pp](https://github.com/user-attachments/assets/a639ee27-0bec-42a1-819b-7939c626a3dd)
-
 
 Because of the limitation of data size, the whole code can be found [here](https://pan.baidu.com/s/16tLL_LJWNFJPK8qAnE-i7g) with code:6rt8
 
@@ -44,6 +45,9 @@ python train.py --label_nc 0 --no_instance --continue_train --batchSize 64 --nam
 ```bash
 python test.py --label_nc 0 --no_instance --name RGB_T234_step5 --dataroot ./datasets/step_5_of_top100/ --loadSize 256 --fineSize 128 --netG local --n_blocks_global 3 --n_blocks_local 1 --gpu_ids 0,2
 ```
+ - [ ] ****Generated results****
+![image](https://github.com/user-attachments/assets/ab61fd60-68dd-4991-b40b-80a0d71e4512)
+
 
 This work is now submitted to The Visual Computer
 
