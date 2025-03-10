@@ -17,7 +17,7 @@ Because of the limitation of data size, the whole code can be found [here](https
 - [ ] ****Prerequisites****
  - Linux
  - NVIDIA GPU
- - [ ] Create conda encironment
+ - [ ] ****Create conda environment****
 ```bash
 conda create -n rgb2tir python=3.8
 conda activate rgbt2tir
@@ -30,13 +30,13 @@ conda install -y tqdm
 pip install visdom tensorboradX dominate easydict cython pandas lmdb
 ```
 
- - [ ] Train
+ - [ ] ****Train****
 
 ```bash
 python train.py --label_nc 0 --no_instance --continue_train --batchSize 64 --name RGB_T234_step5 --dataroot ./datasets/step_5_of_top100/ --loadSize 256 --fineSize 128 --netG local --n_blocks_global 3 --n_blocks_local 1 --gpu_ids 0,2
 ```
 
- - [ ] Test
+ - [ ] ****Test****
 
 ```bash
 python test.py --label_nc 0 --no_instance --name RGB_T234_step5 --dataroot ./datasets/step_5_of_top100/ --loadSize 256 --fineSize 128 --netG local --n_blocks_global 3 --n_blocks_local 1 --gpu_ids 0,2
